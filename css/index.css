@@ -1,0 +1,208 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+.headline {
+  border: 2px solid red;
+  height: 2rem;
+}
+.navi {
+  border-bottom: 1px solid black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+.headline {
+  width: 15%;
+  font-size: 2rem;
+}
+.a-team {
+  border: 2px solid green;
+  width: 40%;
+  font-size: 1.5rem;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.a-team a {
+  text-decoration: none;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.container .top {
+  border: 2px solid red;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  border: 2px solid red;
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.container .content .topp .top-img {
+  border-radius: 5px;
+  width: 100%;
+  height: 20%;
+}
+.container .top p {
+  width: 100%;
+}
+.content img {
+  border: 2px solid gray;
+  border-radius: 5px;
+  width: 45%;
+  height: 45%;
+}
+.content p {
+  border: 2px solid pink;
+  width: 45%;
+}
+.container .click {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 2px solid red;
+}
+.container .click h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.container .click button {
+  width: 15%;
+  height: 20%;
+  border-radius: 20px;
+}
