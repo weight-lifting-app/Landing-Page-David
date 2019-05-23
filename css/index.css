@@ -166,19 +166,19 @@ table {
   display: flex;
   flex-direction: column;
 }
-.content {
-  border: 2px solid red;
-  margin: 20px;
-  display: flex;
-  justify-content: space-around;
-}
-.container .content .topp .top-img {
+.container .top .topp .top-img {
   border-radius: 5px;
   width: 100%;
   height: 20%;
 }
 .container .top p {
   width: 100%;
+}
+.content {
+  border: 2px solid red;
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
 }
 .content img {
   border: 2px solid gray;
