@@ -1,6 +1,45 @@
-.container .contents {
-    // padding: 20px;
-    // display: flex;
-    border: 2px solid gray;
-    width: 50%;
+// .container .contents {
+//     // padding: 20px;
+//     // display: flex;
+//     border: 2px solid gray;
+//     width: 45%;
+// }
+
+.container {
+    // width: 45%;
+    // height: 45%;
+    h1{
+        margin-top: 20px;
+        font-size: 2rem;
+        display:flex;
+        justify-content: center;
+    }
+    .contents {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin: 20px;
+        display: flex;
+        justify-content: space-around;
+        @media @mobile{
+            flex-direction: column;
+        }
+        .img-bio {
+            width: 45%;
+            @media @mobile{
+                width: 100%;
+            }
+            .dog-img {
+                width: 100%;    
+            }
+        }
+
+        .bio {
+           width: 45%; 
+           display: flex;
+           align-items: center;
+        @media @mobile{
+            width:100%;
+        }    
+        }
+    }
 }
